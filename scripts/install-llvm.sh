@@ -14,4 +14,4 @@ tar xvf cfe-${LLVM_VERSION}.src.tar.xz
 . /opt/rh/devtoolset-4/enable
 python --version
 cd /llvm/llvm-${LLVM_VERSION}.src && mkdir -p build && cd build
-make .. -DCMAKE_INSTALL_PREFIX=/opt/llvm/ -DCMAKE_BUILD_TYPE=Release && make -j8 install && rm -Rf /llvm"
+make .. -DCMAKE_INSTALL_PREFIX=/opt/llvm/ -DCMAKE_BUILD_TYPE=Release && make -j8 install && rm -Rf /llvm
